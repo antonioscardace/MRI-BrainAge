@@ -4,7 +4,7 @@ _Project for "Fundamental of Data Analysis" course_<br/>
 _Grade: NaN / 30_<br/>
 _[Antonio Scardace](https://linktr.ee/antonioscardace)_ @ _Dept of Mathematics and Computer Science, University of Catania_
 
-[![License](https://img.shields.io/github/license/antonioscardace/mri-brainage.svg)](https://github.com/antonioscardace/MRI-BrainAge/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/antonioscardace/MRI-BrainAge.svg)](https://github.com/antonioscardace/MRI-BrainAge/blob/master/LICENSE)
 [![Open Issues](https://img.shields.io/github/issues/antonioscardace/MRI-BrainAge.svg)](https://github.com/antonioscardace/MRI-BrainAge/issues)
 [![Credits](https://img.shields.io/badge/credits-here-green?style=flat&link=/docs/credits.txt)](/docs/credits.txt)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antonioscardace/MRI-BrainAge/blob/main/tutorial.ipynb)
