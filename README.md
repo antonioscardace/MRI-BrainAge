@@ -28,3 +28,19 @@ A polynomial regression model was trained using **Cross-Validation**, achieving 
 <p align="center">
    <img src="docs/images/ages.png" height="240px"/>
 </p>
+
+## Getting Started
+
+To successfully clone the repository and run the project, ensure the following prerequisites are met:
+
+* A stable internet connection.
+* [Anaconda](https://www.anaconda.com/) (recommended) or a Python Environment (3.9 or later).
+* Jupyter Notebook or JupyterLab installed.
+
+Then, the repo can be cloned, dependencies can be installed, and the project can be run.
+
+```sh
+   $ git clone https://github.com/antonioscardace/MRI-BrainAge.git
+   $ cd YOUR_PATH/MRI-BrainAge/
+   $ jupyter notebook tutorial.ipynb
+``` 
