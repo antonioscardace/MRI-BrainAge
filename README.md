@@ -11,7 +11,8 @@ _[Antonio Scardace](https://linktr.ee/antonioscardace)_ @ _Dept of Mathematics a
 
 ## Introduction
 
-Inspired by the groundbreaking paper titled "**[Accurate brain‐age models for routine clinical MRI examinations](https://www.sciencedirect.com/science/article/pii/S1053811922000015?via%3Dihub#fig0003)**", this project develops a predictive model using volumetric features extracted with **SynthSeg (FreeSurfer)** from **3D T1-w brain MRIs**. It estimates brain age, detecting deviations between chronological and biological brain age, that provide evidence that Alzheimer’s Disease is associated with accelerated brain ageing.
+Inspired by the groundbreaking paper titled "**[Accurate brain‐age models for routine clinical MRI examinations](https://www.sciencedirect.com/science/article/pii/S1053811922000015?via%3Dihub#fig0003)**", this project develops a predictive model using volumetric features extracted via **SynthSeg (FreeSurfer)** from **3D T1-w brain MRIs**. It estimates brain age, detecting deviations between chronological and biological brain age,
+showing that Alzheimer’s Disease links to accelerated brain ageing.
 
 Using datasets from **ADNI**, **AIBL**, and **OASIS**, I curated a collection of **7545 MRI scans** from **2227 unique patients** for analysis. These scans belong exclusively to two diagnostic categories:
 * Cognitively Normal `CN` **68.68%**
@@ -23,7 +24,7 @@ Using datasets from **ADNI**, **AIBL**, and **OASIS**, I curated a collection of
 
 ## Brain Age Prediction
 
-A polynomial regression model was trained using **Cross-Validation**, achieving a **MAE of 3.99 years**, with age as the dependent variable and all other features as predictors. Trained on CN data, it accurately predicted brain age for CN patients, with a Brain PAD of **-0.12 years**, closely matching chronological age. For AD patients, however, the model revealed a Brain PAD of **+7.48 years**, indicating that AD is associated with accelerated brain ageing.
+A polynomial regression model was trained via **Cross-Validation**, achieving a **MAE of 3.99 years**, with age as the dependent variable and other features as predictors. Trained on CN data, it predicted brain age for CN patients, with a Brain PAD of **-0.12 years**, closely matching chronological age. For AD patients, however, it showed a Brain PAD of **+7.48 years**, indicating that AD’s association with accelerated brain ageing.
 
 <p align="center">
    <img src="docs/images/ages.png" height="240px"/>
