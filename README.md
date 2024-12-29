@@ -1,15 +1,9 @@
 # MRI BrainAge
 
-_Project for "Fundamental of Data Analysis" course_<br/>
-_Grade: NaN / 30_<br/>
-_[Antonio Scardace](https://linktr.ee/antonioscardace)_ @ _Dept of Mathematics and Computer Science, University of Catania_
-
 [![License](https://img.shields.io/github/license/antonioscardace/MRI-BrainAge.svg)](https://github.com/antonioscardace/MRI-BrainAge/blob/master/LICENSE)
 [![Open Issues](https://img.shields.io/github/issues/antonioscardace/MRI-BrainAge.svg)](https://github.com/antonioscardace/MRI-BrainAge/issues)
 [![Credits](https://img.shields.io/badge/credits-here-green?style=flat&link=/docs/credits.txt)](/docs/credits.txt)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antonioscardace/MRI-BrainAge/blob/main/tutorial.ipynb)
-
-## Introduction
 
 Inspired by the groundbreaking paper titled "**[Accurate brain‐age models for routine clinical MRI examinations](https://www.sciencedirect.com/science/article/pii/S1053811922000015?via%3Dihub#fig0003)**", this project develops a predictive model using volumetric features extracted via **SynthSeg (FreeSurfer)** from **3D T1-w brain MRIs**. It estimates brain age, detecting deviations between chronological and biological brain age,
 showing that Alzheimer’s Disease links to accelerated brain ageing.
