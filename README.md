@@ -5,8 +5,7 @@
 [![Credits](https://img.shields.io/badge/credits-here-green?style=flat&link=/docs/credits.txt)](/docs/credits.txt)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antonioscardace/MRI-BrainAge/blob/main/tutorial.ipynb)
 
-Inspired by the groundbreaking paper titled "**[Accurate brain‐age models for routine clinical MRI examinations](https://www.sciencedirect.com/science/article/pii/S1053811922000015?via%3Dihub)**", this project develops a predictive model using volumetric features extracted via **SynthSeg (FreeSurfer)** from **3D T1-w brain MRIs**. It estimates brain age, detecting deviations between chronological and biological brain age,
-showing that Alzheimer’s Disease links to accelerated brain ageing.
+This project was developed as part of the Fundamentals of Data Analysis course examination. Inspired by the groundbreaking paper titled "**[Accurate brain‐age models for routine clinical MRI examinations](https://www.sciencedirect.com/science/article/pii/S1053811922000015?via%3Dihub)**", the work focuses on creating a predictive model using volumetric features extracted via **SynthSeg (FreeSurfer)** from **3D T1-w brain MRIs**. It estimates brain age, detecting deviations between chronological and biological brain age, showing that Alzheimer’s Disease links to accelerated brain ageing.
 
 Using datasets from **ADNI**, **AIBL**, and **OASIS**, I curated a collection of **7545 MRI scans** from **2227 unique patients** for analysis. These scans belong exclusively to two diagnostic categories:
 * Cognitively Normal `CN` **68.68%**
