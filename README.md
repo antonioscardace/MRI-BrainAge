@@ -1,4 +1,4 @@
-# MRI BrainAge • Linking Brain Age and Alzheimer’s
+# MRI BrainAge
 
 [![License](https://img.shields.io/github/license/antonioscardace/MRI-BrainAge.svg)](https://github.com/antonioscardace/MRI-BrainAge/blob/master/LICENSE)
 [![Open Issues](https://img.shields.io/github/issues/antonioscardace/MRI-BrainAge.svg)](https://github.com/antonioscardace/MRI-BrainAge/issues)
@@ -15,7 +15,7 @@ Using datasets from **ADNI**, **AIBL**, and **OASIS**, I curated a collection of
    <img src="docs/images/example.png" height="220px"/>
 </p>
 
-## Brain Age Prediction
+## Linking Brain Age and Alzheimer’s
 
 A polynomial regression model was trained via **Cross-Validation**, achieving a **MAE of 3.98 years**, with age as the dependent variable and other features as predictors. Trained on CN data, it predicted brain age for CN patients, with a Brain PAD of **-0.12 years**, closely matching chronological age. For AD patients, however, it showed a Brain PAD of **+7.48 years**, indicating that AD’s association with accelerated brain ageing.
 
